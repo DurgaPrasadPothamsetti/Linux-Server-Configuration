@@ -47,8 +47,20 @@ tt5mlO9nEn71JA2sIWdchm6A/yB1Md1OG95FhVhTHZlh+s7LwnmIfz8=
   Save The Private Key Provided in Your Local Machine and Run the Following Command in Terminal
   ```
   ssh -i pathto/key -p 2200 grader@13.127.166.26
-    
   ```
+##Summary
+1. Launch your Virtual Machine
+2. Follow the instructions provided to SSH into your server
+3. Create a new user  grader
+4. Give grader permission to sudo
+5. Update all installed packages
+6. Change the SSH port from 22 to 2200
+7. Configure the Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
+8. Configure the local timezone to UTC
+9. Install and configure Apache to serve a Python mod_wsgi application
+10. Install and configure PostgreSQL
+11. Do not allow remote connections.
+12. Install git and clone  your Catalog App project (from your GitHub repository ) so that it functions correctly when visiting your server’s IP address in a browser.
 ### Configuring The Linux Server
 
 #### Update all the packages
@@ -352,6 +364,9 @@ sudo apt-get upgrade
    ```
    sudo service apache2 restart
    ```
-   
+   ##Third Party Resources
+   [developer console](https://console.developers.google.com)
+   [Digital ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+   [stack overflow](https://stackoverflow.com/questions/44742566/wsgi-cant-find-file-in-same-directory-in-app)
    
    
