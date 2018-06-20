@@ -48,7 +48,7 @@ tt5mlO9nEn71JA2sIWdchm6A/yB1Md1OG95FhVhTHZlh+s7LwnmIfz8=
   ```
   ssh -i pathto/key -p 2200 grader@13.127.166.26
   ```
-##Summary
+## Summary
 1. Launch your Virtual Machine
 2. Follow the instructions provided to SSH into your server
 3. Create a new user  grader
