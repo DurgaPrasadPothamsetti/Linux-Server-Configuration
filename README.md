@@ -364,9 +364,9 @@ sudo apt-get upgrade
    ```
    sudo service apache2 restart
    ```
-   ##Third Party Resources
-   [developer console](https://console.developers.google.com)
-   [Digital ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+   ## Third Party Resources
+   [developer console](https://console.developers.google.com)<br>
+   [Digital ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)<br>
    [stack overflow](https://stackoverflow.com/questions/44742566/wsgi-cant-find-file-in-same-directory-in-app)
    
    
