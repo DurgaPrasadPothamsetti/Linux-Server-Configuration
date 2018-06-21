@@ -47,7 +47,7 @@ KDEclRtibOh0LZOyklWlner8f/fI+pA3ea4dsYLutVG5dxspliQ=
 ### Steps To Connect As a grader:
   Save The Private Key Provided in Your Local Machine and Run the Following Command in Terminal
   ```
-  ssh -i pathto/key -p 2200 grader@13.127.166.26
+  ssh -i pathto/key -p 2200 grader@35.154.100.97
   ```
 ## Summary
 1. Launch your Virtual Machine
